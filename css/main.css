@@ -78,6 +78,11 @@
     font-size: .5em;
   }
   
+  .soporte{
+    display: flex;
+    justify-content: center;
+  }
+
   .centrar{
     text-align: justify;
     align-items: center;
@@ -91,5 +96,16 @@
     align-items: center;
     justify-content: center;
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
+  .check{
+    list-style: none;
+    margin-top: 4%;
+  }
+
+  .btn-card{
+    margin-left: auto;
+    margin-right: auto;
+  }

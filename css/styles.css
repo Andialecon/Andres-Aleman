@@ -4349,6 +4349,13 @@ input[type=button].btn-block {
   color: #fff;
 }
 
+.justify-content-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
 .card {
   position: relative;
   display: flex;
@@ -4359,7 +4366,12 @@ input[type=button].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin-bottom: 5%;
+  /* margin-left: auto;
+  margin-top: auto; */
+  background-color:silver;
 }
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -4392,6 +4404,11 @@ input[type=button].btn-block {
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
+}
+
+.card-text{
+  font-size: inherit;
+  text-align: center;
 }
 
 .card-text:last-child {
@@ -9813,6 +9830,10 @@ button.bg-dark:focus {
   color: #fed136 !important;
 }
 
+.text-btn{
+  color:green;
+}
+
 a.text-primary:hover, a.text-primary:focus {
   color: #e6b301 !important;
 }
@@ -10551,3 +10572,4 @@ section#contact form#contactForm :-ms-input-placeholder {
 .carousel-item {
   width: 70%;
 }
+
