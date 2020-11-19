@@ -20,7 +20,7 @@
             if (target.length) {
                 $("html, body").animate(
                     {
-                        scrollTop: target.offset().top - 72,
+                        scrollTop: target.offset().top - 52,
                     },
                     1000,
                     "easeInOutExpo"
